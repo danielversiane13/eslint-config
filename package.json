@@ -1,0 +1,14 @@
+{
+  "name": "@danielversiane13/eslint-config",
+  "version": "1.0.0",
+  "private": false,
+  "description": "ESLint configuration.",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "url": "danielversiane13/eslint-config"
+  },
+  "dependencies": {},
+  "peerDependencies": {},
+  "peerDependenciesMeta": {}
+}
