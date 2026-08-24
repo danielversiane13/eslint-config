@@ -4,11 +4,19 @@ Shared ESLint flat config, built on top of [`neostandard`](https://github.com/ne
 
 ## Install
 
+Not published to the npm registry yet — install directly from GitHub:
+
 ```sh
-pnpm add -D eslint @danielversiane13/eslint-config
+pnpm add -D eslint@^9 github:danielversiane13/eslint-config
 ```
 
-`eslint` is a peer dependency (`>=9 <10`). TypeScript is optional — only needed if you lint `.ts`/`.tsx` files.
+`eslint` is a peer dependency (`>=9 <10`) — pin it to `^9` explicitly, since installing without a version may resolve `eslint@10`, which `neostandard`'s current stable release doesn't support yet. TypeScript is optional — only needed if you lint `.ts`/`.tsx` files.
+
+To pin a specific version instead of tracking `main`, target a tag or commit once one exists:
+
+```sh
+pnpm add -D eslint@^9 github:danielversiane13/eslint-config#<tag-or-commit>
+```
 
 ## Usage
 
