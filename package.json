@@ -6,7 +6,11 @@
   "main": "base.mjs",
   "license": "MIT",
   "repository": {
-    "url": "danielversiane13/eslint-config"
+    "type": "git",
+    "url": "git+https://github.com/danielversiane13/eslint-config.git"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "exports": {
     ".": "./base.mjs",
